@@ -1,0 +1,109 @@
+18:15:52.088 [ERROR] [system.err] /home/shoiab/Desktop/ud867-master/FinalProject/app/src/free/java/com.udacity.gradle.builditbigger/com/udacity/gradle/builditbigger/free/MainActivityFragment.java:35: error: package R does not exist
+18:15:52.088 [ERROR] [system.err]         View root = inflater.inflate(R.layout.fragment_main, container, false);
+18:15:52.088 [ERROR] [system.err]                                       ^
+18:15:52.089 [ERROR] [system.err] /home/shoiab/Desktop/ud867-master/FinalProject/app/src/free/java/com.udacity.gradle.builditbigger/com/udacity/gradle/builditbigger/free/MainActivityFragment.java:36: error: package R does not exist
+18:15:52.089 [ERROR] [system.err]         AdView mAdView = (AdView) root.findViewById(R.id.adView);
+18:15:52.089 [ERROR] [system.err]                                                      ^
+18:15:52.107 [ERROR] [system.err] Note: Some input files use unchecked or unsafe operations.
+18:15:52.107 [ERROR] [system.err] Note: Recompile with -Xlint:unchecked for details.
+18:15:52.107 [ERROR] [system.err] 2 errors
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] FAILURE: Build failed with an exception.
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * What went wrong:
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Execution failed for task ':app:compileFreeDebugJavaWithJavac'.
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] > Compilation failed; see the compiler error output for details.
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 
+18:15:52.110 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] * Exception is:
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileFreeDebugJavaWithJavac'.
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:84)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:55)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:62)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:88)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:46)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:51)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+18:15:52.111 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:236)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.execute(DefaultTaskGraphExecuter.java:228)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:61)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:228)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:215)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:77)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:58)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:113)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+18:15:52.112 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:196)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultGradleLauncher$3.execute(DefaultGradleLauncher.java:193)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.Transformers$4.transform(Transformers.java:169)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:106)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:56)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:193)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:119)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:102)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.GradleBuildController.run(GradleBuildController.java:71)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:41)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:26)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:75)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+18:15:52.113 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:44)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:29)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:67)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:47)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.util.Swapper.swap(Swapper.java:38)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+18:15:52.114 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:297)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:48)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:33)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:104)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:53)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:38)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:206)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:187)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:130)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:49)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$IncrementalTaskAction.doExecute(DefaultTaskClassInfoStore.java:163)
+18:15:52.115 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:134)
+18:15:52.116 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:123)
+18:15:52.116 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:95)
+18:15:52.116 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:76)
+18:15:52.116 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 	... 70 more
+18:15:52.116 [ERROR] [org.gradle.internal.buildevents.BuildExceptionReporter] 

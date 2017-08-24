@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/bundles/debug/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9e127a5eca53c0470e2866f749b19ba5be6f4d66">
+        <dex dex="/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/pre-dexed/androidTest/debug/classes_3c89458d65353cfde9131c6041bec15096408daa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/shoiab/Desktop/ud867-master/FinalProject/jokejavalibrary/build/libs/jokejavalibrary.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eacbff7dc049eba09befdb80d4d40780cbb16a11">
+        <dex dex="/home/shoiab/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/free/debug/jokejavalibrary_fcb38f800715efbe104397aa0e1ce4d7f0c0a130.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/shoiab/Desktop/ud867-master/FinalProject/backend/build/libs/backend-android-endpoints.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07acfd9dc74d121ebc68f6f5be6d9ffbfe43844e">
+        <dex dex="/home/shoiab/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/free/debug/backend-android-endpoints_cec06609ca63696d44570781c7c53a24f6790ac2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1afe182b0608e5029b44d6f191384203ad97f240">
+        <dex dex="/home/shoiab/Desktop/ud867-master/FinalProject/app/build/intermediates/pre-dexed/free/debug/classes_5a29e2e4000158d045da5bac732394c2de42d0c4.jar" />
+    </item>
+
+</items>
