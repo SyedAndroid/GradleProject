@@ -1,1 +1,1 @@
-include ':app', ':jokejavalibrary', ':androidlibrary', ':backend', ':google-api-client-extensions-1.6.0-beta'
+include ':app', ':jokejavalibrary', ':androidlibrary', ':backend', ':google-api-client-extensions-1.6.0-beta', ':testmodule'

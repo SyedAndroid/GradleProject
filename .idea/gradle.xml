@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/backend" />
             <option value="$PROJECT_DIR$/google-api-client-extensions-1.6.0-beta" />
             <option value="$PROJECT_DIR$/jokejavalibrary" />
+            <option value="$PROJECT_DIR$/testmodule" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

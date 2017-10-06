@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='UTF-8' ?>
-<testsuite name="com.example.androidlibrary.ExampleInstrumentedTest" tests="1" failures="0" errors="0" skipped="0" time="0.012" timestamp="2017-08-24T00:34:59" hostname="localhost">
-  <properties>
-    <property name="device" value="GT-I9505 - 5.0.1" />
-    <property name="flavor" value="" />
-    <property name="project" value="androidlibrary" />
-  </properties>
-  <testcase name="useAppContext" classname="com.example.androidlibrary.ExampleInstrumentedTest" time="0.001" />
-</testsuite>

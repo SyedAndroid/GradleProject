@@ -8,12 +8,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.udacity.gradle.builditbigger.R;
 import com.udacity.gradle.builditbigger.rest.EndpointsAsyncTask;
 import com.udacity.gradle.builditbigger.rest.JokeListener;
 
 
-public class MainActivity extends AppCompatActivity  implements JokeListener {
+public class MainActivity extends AppCompatActivity implements JokeListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,11 +57,11 @@ public class MainActivity extends AppCompatActivity  implements JokeListener {
     @Override
     public void getJokeResult(String result) {
 
-        Toast.makeText(this,"We reached here",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "We reached here", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, com.example.androidlibrary.MainActivity.class);
 
 
-        intent.putExtra("joke",result);
+        intent.putExtra("joke", result);
 
         startActivity(intent);
     }

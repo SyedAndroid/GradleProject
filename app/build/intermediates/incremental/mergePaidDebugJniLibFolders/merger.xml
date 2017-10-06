@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/shoiab/Desktop/ud867-master/FinalProject/app/src/main/jniLibs"/></dataSet><dataSet config="paid"><source path="/home/shoiab/Desktop/ud867-master/FinalProject/app/src/paid/jniLibs"/></dataSet><dataSet config="debug"><source path="/home/shoiab/Desktop/ud867-master/FinalProject/app/src/debug/jniLibs"/></dataSet><dataSet config="paidDebug"><source path="/home/shoiab/Desktop/ud867-master/FinalProject/app/src/paidDebug/jniLibs"/></dataSet></merger>

@@ -100,16 +100,16 @@
         "source": "/home/shoiab/.android/build-cache/2c39f592546e577d178cdd17bf3f787a0c7f0e0d/output/res/layout/abc_screen_content_include.xml"
     },
     {
+        "merged": "/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
+        "source": "/home/shoiab/.android/build-cache/2c39f592546e577d178cdd17bf3f787a0c7f0e0d/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
         "merged": "/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/res/merged/release/layout/select_dialog_multichoice_material.xml",
         "source": "/home/shoiab/.android/build-cache/2c39f592546e577d178cdd17bf3f787a0c7f0e0d/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/res/merged/release/layout/abc_screen_toolbar.xml",
         "source": "/home/shoiab/.android/build-cache/2c39f592546e577d178cdd17bf3f787a0c7f0e0d/output/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/res/merged/release/layout/abc_action_bar_up_container.xml",
-        "source": "/home/shoiab/.android/build-cache/2c39f592546e577d178cdd17bf3f787a0c7f0e0d/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/home/shoiab/Desktop/ud867-master/FinalProject/androidlibrary/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",

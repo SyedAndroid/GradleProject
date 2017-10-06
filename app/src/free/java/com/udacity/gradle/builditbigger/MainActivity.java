@@ -16,7 +16,7 @@ import com.udacity.gradle.builditbigger.rest.EndpointsAsyncTask;
 import com.udacity.gradle.builditbigger.rest.JokeListener;
 
 
-public class MainActivity extends AppCompatActivity  implements JokeListener {
+public class MainActivity extends AppCompatActivity implements JokeListener {
 
     private InterstitialAd mInterstitialAd;
 
@@ -70,32 +70,27 @@ public class MainActivity extends AppCompatActivity  implements JokeListener {
         }
         mInterstitialAd.setAdListener(new AdListener() {
 
-                                          @Override
-                                          public void onAdClosed() {
+            @Override
+            public void onAdClosed() {
 
-                                              tellJokeAsync();
-                                              // Code to be executed when when the interstitial ad is closed.
-                                              Log.i("Ads", "onAdClosed");
-                                          }
+                tellJokeAsync();
+                // Code to be executed when when the interstitial ad is closed.
+                Log.i("Ads", "onAdClosed");
+            }
         });
 
     }
-
-
-
-
-
 
 
     @Override
     public void getJokeResult(String result) {
 
 
-        Toast.makeText(this,"We reached here",Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "We reached here", Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this, com.example.androidlibrary.MainActivity.class);
 
 
-        intent.putExtra("joke",result);
+        intent.putExtra("joke", result);
 
         startActivity(intent);
     }
